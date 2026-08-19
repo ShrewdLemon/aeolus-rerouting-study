@@ -7,7 +7,7 @@ Companion code and results for:
 
 > **Risk-Informed Dynamic Rerouting for Resilient Logistics: The Aeolus
 > Framework and a Computational Study on an India-Calibrated Freight Network**
-> Lekshmi Madhusudhanan and Punarbasu Pradhan
+> Punarbasu Pradhan and Lekshmi Madhusudhanan
 > Indian Institute of Technology Madras
 
 This repository contains everything needed to reproduce **every number in the
@@ -214,13 +214,13 @@ from it.
 
 To cite the archived software itself:
 
-> Madhusudhanan, L., & Pradhan, P. (2026). *Aeolus — Risk-Informed Dynamic
+> Pradhan, P., & Madhusudhanan, L. (2026). *Aeolus — Risk-Informed Dynamic
 > Rerouting: Computational Study* (v1.0.0) [Software]. Zenodo.
 > https://doi.org/10.5281/zenodo.22008789
 
 ```bibtex
 @software{aeolus_rerouting_study_2026,
-  author  = {Madhusudhanan, Lekshmi and Pradhan, Punarbasu},
+  author  = {Pradhan, Punarbasu and Madhusudhanan, Lekshmi},
   title   = {Aeolus --- Risk-Informed Dynamic Rerouting: Computational Study},
   version = {1.0.0},
   year    = {2026},

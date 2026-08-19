@@ -1,15 +1,15 @@
 {
   "upload_type": "software",
   "title": "Aeolus — Risk-Informed Dynamic Rerouting: Computational Study",
-  "description": "<p>Companion code and results for the paper <em>Risk-Informed Dynamic Rerouting for Resilient Logistics: The Aeolus Framework and a Computational Study on an India-Calibrated Freight Network</em> (Madhusudhanan &amp; Pradhan, Indian Institute of Technology Madras).</p><p>A dependency-free Python simulation of risk-informed dynamic rerouting on a 30-city, 74-corridor freight network calibrated to Indian line-haul conditions. Five policies, each defined by an information set (static, local discovery, global telemetry, predictive signals, oracle), are evaluated on identical disruption scenarios so that differences isolate the value of information rather than the value of a better optimiser.</p><p>Headline result: predictive signals cut mean delay on disruption-exposed shipments by 29.2% relative to global-telemetry rerouting (7.44 vs 10.52 hours; on-time rate 91.2% vs 83.4%), capturing half of the residual value of perfect information. The benefit persists at 50% signal precision, and signal lead time proves as valuable as precision.</p><p>Everything reproduces from a fixed master seed (20260724); the archived <code>rerouting_results.json</code> is byte-identical across runs and machines.</p>",
+  "description": "<p>Companion code and results for the paper <em>Risk-Informed Dynamic Rerouting for Resilient Logistics: The Aeolus Framework and a Computational Study on an India-Calibrated Freight Network</em> (Pradhan &amp; Madhusudhanan, Indian Institute of Technology Madras).</p><p>A dependency-free Python simulation of risk-informed dynamic rerouting on a 30-city, 74-corridor freight network calibrated to Indian line-haul conditions. Five policies, each defined by an information set (static, local discovery, global telemetry, predictive signals, oracle), are evaluated on identical disruption scenarios so that differences isolate the value of information rather than the value of a better optimiser.</p><p>Headline result: predictive signals cut mean delay on disruption-exposed shipments by 29.2% relative to global-telemetry rerouting (7.44 vs 10.52 hours; on-time rate 91.2% vs 83.4%), capturing half of the residual value of perfect information. The benefit persists at 50% signal precision, and signal lead time proves as valuable as precision.</p><p>Everything reproduces from a fixed master seed (20260724); the archived <code>rerouting_results.json</code> is byte-identical across runs and machines.</p>",
   "creators": [
-    {
-      "name": "Madhusudhanan, Lekshmi",
-      "affiliation": "Department of Ocean Engineering, Indian Institute of Technology Madras"
-    },
     {
       "name": "Pradhan, Punarbasu",
       "affiliation": "Department of Electrical Engineering, Indian Institute of Technology Madras"
+    },
+    {
+      "name": "Madhusudhanan, Lekshmi",
+      "affiliation": "Department of Ocean Engineering, Indian Institute of Technology Madras"
     }
   ],
   "license": "MIT",
