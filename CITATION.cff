@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper below."
+title: "Aeolus — Risk-Informed Dynamic Rerouting: Computational Study"
+abstract: >-
+  Companion code and results for the Aeolus computational study: a reproducible
+  Monte Carlo simulation of risk-informed dynamic rerouting on a 30-city
+  freight network calibrated to Indian line-haul conditions. Reproduces every
+  number in the paper's computational study from a fixed seed.
+type: software
+authors:
+  - family-names: Madhusudhanan
+    given-names: Lekshmi
+    affiliation: "Department of Ocean Engineering, Indian Institute of Technology Madras"
+  - family-names: Pradhan
+    given-names: Punarbasu
+    affiliation: "Department of Electrical Engineering, Indian Institute of Technology Madras"
+version: 1.0.0
+license: MIT
+keywords:
+  - dynamic vehicle routing
+  - supply chain resilience
+  - disruption management
+  - value of information
+  - graph neural networks
+  - autonomous supply chains
+preferred-citation:
+  type: article
+  title: >-
+    Risk-Informed Dynamic Rerouting for Resilient Logistics: The Aeolus
+    Framework and a Computational Study on an India-Calibrated Freight Network
+  authors:
+    - family-names: Madhusudhanan
+      given-names: Lekshmi
+      affiliation: "Department of Ocean Engineering, Indian Institute of Technology Madras"
+    - family-names: Pradhan
+      given-names: Punarbasu
+      affiliation: "Department of Electrical Engineering, Indian Institute of Technology Madras"
+  year: 2026
