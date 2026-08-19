@@ -8,12 +8,12 @@ abstract: >-
   number in the paper's computational study from a fixed seed.
 type: software
 authors:
-  - family-names: Madhusudhanan
-    given-names: Lekshmi
-    affiliation: "Department of Ocean Engineering, Indian Institute of Technology Madras"
   - family-names: Pradhan
     given-names: Punarbasu
     affiliation: "Department of Electrical Engineering, Indian Institute of Technology Madras"
+  - family-names: Madhusudhanan
+    given-names: Lekshmi
+    affiliation: "Department of Ocean Engineering, Indian Institute of Technology Madras"
 version: 1.0.0
 license: MIT
 doi: 10.5281/zenodo.22008789
@@ -35,10 +35,10 @@ preferred-citation:
     Risk-Informed Dynamic Rerouting for Resilient Logistics: The Aeolus
     Framework and a Computational Study on an India-Calibrated Freight Network
   authors:
-    - family-names: Madhusudhanan
-      given-names: Lekshmi
-      affiliation: "Department of Ocean Engineering, Indian Institute of Technology Madras"
     - family-names: Pradhan
       given-names: Punarbasu
       affiliation: "Department of Electrical Engineering, Indian Institute of Technology Madras"
+    - family-names: Madhusudhanan
+      given-names: Lekshmi
+      affiliation: "Department of Ocean Engineering, Indian Institute of Technology Madras"
   year: 2026
