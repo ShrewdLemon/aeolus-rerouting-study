@@ -16,6 +16,12 @@ authors:
     affiliation: "Department of Electrical Engineering, Indian Institute of Technology Madras"
 version: 1.0.0
 license: MIT
+doi: 10.5281/zenodo.22008789
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22008789
+    description: "Archived v1.0.0 release on Zenodo"
+repository-code: "https://github.com/ShrewdLemon/aeolus-rerouting-study"
 keywords:
   - dynamic vehicle routing
   - supply chain resilience

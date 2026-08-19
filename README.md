@@ -1,5 +1,8 @@
 # Aeolus — Risk-Informed Dynamic Rerouting: Computational Study
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22008789.svg)](https://doi.org/10.5281/zenodo.22008789)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Companion code and results for:
 
 > **Risk-Informed Dynamic Rerouting for Resilient Logistics: The Aeolus
@@ -208,6 +211,23 @@ protocol for the latter.
 If you use this code or these results, please cite the paper. Machine-readable
 metadata is in `CITATION.cff`; GitHub renders a "Cite this repository" button
 from it.
+
+To cite the archived software itself:
+
+> Madhusudhanan, L., & Pradhan, P. (2026). *Aeolus — Risk-Informed Dynamic
+> Rerouting: Computational Study* (v1.0.0) [Software]. Zenodo.
+> https://doi.org/10.5281/zenodo.22008789
+
+```bibtex
+@software{aeolus_rerouting_study_2026,
+  author  = {Madhusudhanan, Lekshmi and Pradhan, Punarbasu},
+  title   = {Aeolus --- Risk-Informed Dynamic Rerouting: Computational Study},
+  version = {1.0.0},
+  year    = {2026},
+  doi     = {10.5281/zenodo.22008789},
+  url     = {https://doi.org/10.5281/zenodo.22008789}
+}
+```
 
 ## Licence
 
