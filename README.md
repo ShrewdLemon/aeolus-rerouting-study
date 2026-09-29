@@ -3,12 +3,18 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22008789.svg)](https://doi.org/10.5281/zenodo.22008789)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+A small, dependency-free Python simulation that measures how much each kind of
+disruption information is worth when rerouting freight trucks, on a 30-city
+network calibrated to Indian line-haul conditions. It is for readers of the
+paper who want to check or extend its numbers, and for anyone studying
+value-of-information in dynamic routing.
+
 Companion code and results for:
 
 > **Risk-Informed Dynamic Rerouting for Resilient Logistics: The Aeolus
 > Framework and a Computational Study on an India-Calibrated Freight Network**
-> Punarbasu Pradhan and Lekshmi Madhusudhanan
-> Indian Institute of Technology Madras
+> Punarbasu Pradhan (independent researcher) and Lekshmi Madhusudhanan
+> (Department of Ocean Engineering, Indian Institute of Technology Madras)
 
 This repository contains everything needed to reproduce **every number in the
 paper's computational study** from a fixed seed: one self-contained Python
@@ -58,9 +64,16 @@ are reported too and are correspondingly diluted.
 
 ---
 
-## Reproducing
+## Install
 
-No dependencies. Pure Python standard library, Python 3.9+.
+No dependencies. Pure Python standard library, Python 3.9+. Clone and run:
+
+```sh
+git clone https://github.com/ShrewdLemon/aeolus-rerouting-study.git
+cd aeolus-rerouting-study
+```
+
+## Reproducing
 
 ```sh
 python3 rerouting_study.py
@@ -77,7 +90,7 @@ machines. Check it:
 
 ```sh
 python3 rerouting_study.py
-sha256sum rerouting_results.json
+sha256sum rerouting_results.json      # on macOS: shasum -a 256 rerouting_results.json
 # 64fa2056e5c6e940b92287c2a700cf81da35003da38103d8f24bea296840e4e0
 ```
 
@@ -90,6 +103,21 @@ archived artefact on Zenodo.
 > disruption sampling consumes edge order, so unsorted iteration silently made
 > the results seed-dependent. Preserve the `sorted()` calls if you modify the
 > network builder.
+
+### How it is checked
+
+There is no unit-test suite and no CI. The check is end-to-end: rerun the
+script and compare the SHA-256 of the results file with the digest above.
+On 29 Sep 2026 a fresh run on Python 3.14.7 (Apple M-series, macOS) matched
+it byte for byte in 2m22s.
+
+### Design principles
+
+- Every result in the paper and in this README is read from
+  `rerouting_results.json`, and that file comes from one seeded run.
+- Policies differ only in what they know, never in how they optimise.
+- Standard library only, so the result does not drift with package versions.
+- Confidence intervals are reported next to every mean.
 
 ---
 
@@ -231,4 +259,9 @@ To cite the archived software itself:
 
 ## Licence
 
-MIT — see `LICENSE`.
+MIT. See `LICENSE`.
+
+## Contact
+
+Issues and questions: [github.com/ShrewdLemon](https://github.com/ShrewdLemon)
+or open an issue on this repository.
