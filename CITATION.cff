@@ -10,11 +10,11 @@ type: software
 authors:
   - family-names: Pradhan
     given-names: Punarbasu
-    affiliation: "Department of Electrical Engineering, Indian Institute of Technology Madras"
+    affiliation: "Independent researcher"
   - family-names: Madhusudhanan
     given-names: Lekshmi
     affiliation: "Department of Ocean Engineering, Indian Institute of Technology Madras"
-version: 1.0.0
+version: 1.0.1
 license: MIT
 doi: 10.5281/zenodo.22008789
 identifiers:
@@ -37,7 +37,7 @@ preferred-citation:
   authors:
     - family-names: Pradhan
       given-names: Punarbasu
-      affiliation: "Department of Electrical Engineering, Indian Institute of Technology Madras"
+      affiliation: "Independent researcher"
     - family-names: Madhusudhanan
       given-names: Lekshmi
       affiliation: "Department of Ocean Engineering, Indian Institute of Technology Madras"
